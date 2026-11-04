@@ -10,7 +10,7 @@ import torch.nn.functional as F
 import dgl
 import dgl.function as fn
 
-from VQ import VQVAE
+from .VQ import VQVAE
 
 
 def reverse_edge(tensor):
