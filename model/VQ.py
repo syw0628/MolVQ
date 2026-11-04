@@ -5,7 +5,7 @@ import torch
 from torch import nn
 from torch_scatter import scatter_mean, scatter_add, scatter_max
 
-from Model import MLPDecoder, GIN
+from .Model import MLPDecoder, GIN
 from vector_quantize_pytorch import VectorQuantize
 
 
