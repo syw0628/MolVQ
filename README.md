@@ -18,7 +18,7 @@ MolVQ learns hierarchical molecular representations by combining atom- and fragm
 
 
 ## Overview
-![molvq_fig](https://github.com/yewon0628/MolVQ/blob/main/MolVQ_overview.png) 
+![molvq_fig](https://github.com/syw0628/MolVQ/blob/main/MolVQ_overview.png) 
 
 <br />
 
