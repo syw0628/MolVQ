@@ -6,7 +6,7 @@ Official repository of the **MolVQ** (**Learning hierarchical molecular represen
 
 Yewon Shin, Minsu Park, Seungju Ha, and Hojung Nam
 
-Contact Info:
+Contact Info: <br />
 yewon.shin@gm.gist.ac.kr  
 hojungnam@yonsei.ac.kr
 
