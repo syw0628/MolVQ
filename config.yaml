@@ -1,0 +1,48 @@
+data_args: 
+  atom_fdim: 43
+  bond_fdim: 10
+  motif_fdim: 182 
+  num_atom_vocab: 1266
+  num_motif_maccs: 166
+
+vq_args:
+  emb_dim: 300
+  num_layer: [3, 3]
+  vq_pool: mean
+  commitment_cost: 0.5
+  vq_emb_dim: 300
+  num_codebook_emb: [2000, 2000]
+  codebook_decay: 0.9
+  threshold_dead_code: 1
+
+heteroGNN_args:
+  depth: 3
+  hidden_dim: 300
+  num_att_head: 6
+  lr: 0.001
+  decay: 0
+  epochs: 50
+  dropout: 0.0
+  readout: gru
+  mvmp_dropout: 0.0
+  out_dim: 200
+
+paths:
+  vocab_path: ./vocab/guacamol_relmole_vocab.txt
+  atom_vocab_path: ./vocab/guacamol_atom_vocab.pkl
+  vq_model_path: ./pretrained_model/VQ.pth
+  model_path: ./pretrained_model/HeteroGNN.pth
+
+num_task:
+  single_task:
+    - AMES
+    - hERG
+    - BBBP
+    - BACE
+    - HIV
+  multi_task:
+    ClinTox: 2
+    Tox21: 12
+    SIDER: 27
+    ToxCast: 617
+    MUV: 17

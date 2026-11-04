@@ -1,0 +1,14 @@
+smiles,st_smiles,exp_mean [nM],y,cliff_mol,split,y [pEC50/pKi]
+NS(=O)(=O)c1cccc(Nc2ncc3ccn(-c4ccccc4)c3n2)c1,NS(=O)(=O)c1cccc(Nc2ncc3ccn(-c4ccccc4)c3n2)c1,5.012,-0.7000110623221123,1,test,8.299988937677888
+O=C1NCCc2[nH]c(-c3ccnc(C=Cc4ccccc4)c3)cc21,O=C1NCCc2[nH]c(-c3ccnc(C=Cc4ccccc4)c3)cc21,6.31,-0.8000293592441343,1,test,8.199970640755867
+CC(C)(C)c1ccc2nc(-c3n[nH]c4ccc(Br)cc34)[nH]c2c1,CC(C)(C)c1ccc2nc(-c3n[nH]c4ccc(Br)cc34)[nH]c2c1,1258.93,-3.100001582801352,1,test,5.899998417198648
+O=C(Nc1cccc(C(F)(F)F)n1)Nc1ccnc2ccc(F)cc12,O=C(Nc1cccc(C(F)(F)F)n1)Nc1ccnc2ccc(F)cc12,100.0,-2.0,1,test,7.0
+Nc1nnc2cncc(Cl)n12,Nc1nnc2cncc(Cl)n12,501.19,-2.7000023971422538,1,test,6.299997602857746
+OCCNc1cc2cc(-c3ccccc3)ccc2cn1,OCCNc1cc2cc(-c3ccccc3)ccc2cn1,1995.26,-3.299999496116984,1,test,5.700000503883016
+Cc1cccc(NC(=O)Nc2ccc(-c3csc4ncnc(N)c34)cc2)c1,Cc1cccc(NC(=O)Nc2ccc(-c3csc4ncnc(N)c34)cc2)c1,125.89,-2.099991233544684,1,test,6.900008766455316
+O=C(Nc1cccc(C(F)(F)F)n1)Nc1ccnc2cc(Cl)ccc12,O=C(Nc1cccc(C(F)(F)F)n1)Nc1ccnc2cc(Cl)ccc12,1258.93,-3.100001582801352,1,test,5.899998417198648
+COc1cc(-c2ccc3c(c2)Nc2ccc(C(=O)NCCCN(C)C)cc2NC3=O)ccc1O,COc1cc(-c2ccc3c(c2)Nc2ccc(C(=O)NCCCN(C)C)cc2NC3=O)ccc1O,79.43,-1.899984562549391,1,test,7.100015437450609
+OCCNc1cc2cc(-c3ccncc3)ccc2cn1,OCCNc1cc2cc(-c3ccncc3)ccc2cn1,501.19,-2.7000023971422538,1,test,6.299997602857746
+Brc1cnc2[nH]cc(-c3ccccc3)c2c1,Brc1cnc2[nH]cc(-c3ccccc3)c2c1,79.43,-1.899984562549391,1,test,7.100015437450609
+O=C1Cc2cc(-c3ccccc3)cnc2N1,O=C1Cc2cc(-c3ccccc3)cnc2N1,6309.57,-3.799999762890647,1,test,5.200000237109354
+Cc1n[nH]c2ccc(-c3cccnc3)cc12,Cc1n[nH]c2ccc(-c3cccnc3)cc12,1.995,-0.2999429000227671,1,test,8.700057099977233
