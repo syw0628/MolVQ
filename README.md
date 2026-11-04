@@ -63,10 +63,9 @@ pip install -r requirement.txt --extra-index-url -f https://data.pyg.org/whl/tor
 
 - construct_vocab.ipynb : Jupyther notebook file to standardize molecular SMILES and construct atom- and fragment-level graphs using the ReLMole fragmentation rule
 - construct_dataset.ipynb: Jupyter notebook file to construct the heterogeneous augmented graph dataset using the ReLMole fragmentation rule
-  - Processing large SMILES datasets (e.g., GuacaMol) can be time-consuming. To pretrain the VQ-VAE or the heterogeneous graph encoder from scratch, you can download the preprocessed dataset using the Google Drive link below.
-    You must unpack this tar.gz file in the repository folder.<br>
+  - Processing large SMILES datasets (e.g., GuacaMol) can be time-consuming. To pretrain the VQ-VAE or the heterogeneous graph encoder from scratch, you can download the preprocessed dataset using the Google Drive link below.<br>
     https://drive.google.com/file/d/1P0rDrKG2zHztSMNolo7j7JqXLlbYuhd6/view?usp=sharing
-
+    You must unpack this tar.gz file in the repository folder.
 
 <br />
 
