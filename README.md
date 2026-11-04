@@ -47,22 +47,25 @@ pip install -r requirement.txt --extra-index-url -f https://data.pyg.org/whl/tor
 
 <!-- TODO: Replace the placeholders with the actual repository paths. -->
 
-- `dataset/`: Pretraining and downstream datasets.
-  - **Pretraining:** GuacaMol, containing 1,591,377 unique molecules after standardization and deduplication, with a 9:1 training/validation split.
+- `dataset/`: csv files for pretraining and fine-tuning.
+  - **Pretraining:** GuacaMol, containing 1,591,377 unique molecules after standardization and deduplication.
   - **Molecular activity prediction:** MoleculeACE datasets covering 30 macromolecular targets. Evaluation uses both the full test set and the activity cliff subset.
-  - **Molecular property prediction:** BACE, BBBP, ClinTox, HIV, SIDER, Tox21, AMES, and hERG, using an 8:1:1 scaffold split.
-- `constructed_data/`: Multi-level VQ-VAE and heterogeneous graph encoder pretraining.
-- `vocab/`: Vocab 
-- `pretrained_model/`: Pretrained codebooks and encoder weights.
-- `utils/`: Molecular standardization, fragmentation, and graph construction.
+  - **Molecular property prediction:** BACE, BBBP, ClinTox, HIV, SIDER, Tox21, AMES, and hERG.
+- `model/`: .py files for Multi-level VQ-VAE and heterogeneous graph encoder pretraining.
+- `vocab/`: Atom-level context label vocab file and fragment vocab file for GuacaMol. 
+- `pretrained_model/`: Pretrained model weights for VQ-VAE and Heterogeneous graph encoder.
+- `utils/`: .py files for molecular standardization, fragmentation, graph construction, data splitting, and training schedulers.
 
 
 <br />
 
 ## Data preparation
 
-- construct_vocab.ipynb : Jupyther notebook file to standardize molecular SMILES and construct atom- and fragment-level graphs using the ReLMole fragmentation rule:
-- construct_dataset.ipynb: Jupyter notebook file to construct atom- and fragment-level graphs using the ReLMole fragmentation rule:
+- construct_vocab.ipynb : Jupyther notebook file to standardize molecular SMILES and construct atom- and fragment-level graphs using the ReLMole fragmentation rule
+- construct_dataset.ipynb: Jupyter notebook file to construct the heterogeneous augmented graph dataset using the ReLMole fragmentation rule
+  - Processing large SMILES datasets (e.g., GuacaMol) can be time-consuming. To pretrain the VQ-VAE or the heterogeneous graph encoder from scratch, you can download the preprocessed dataset using the Google Drive link below.
+    You must unpack this tar.gz file in the repository folder.
+    https://drive.google.com/file/d/1P0rDrKG2zHztSMNolo7j7JqXLlbYuhd6/view?usp=sharing
 
 
 <br />
