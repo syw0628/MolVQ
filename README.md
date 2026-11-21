@@ -53,7 +53,7 @@ pip install -r requirement.txt --extra-index-url -f https://data.pyg.org/whl/tor
   - **Molecular property prediction:** BACE, BBBP, ClinTox, HIV, SIDER, Tox21, AMES, and hERG.
 - `model/`: .py files for Multi-level VQ-VAE and heterogeneous graph encoder pretraining.
 - `vocab/`: Atom-level context label vocab file and fragment vocab file for GuacaMol. 
-- `pretrained_model/`: Pretrained model weights for VQ-VAE and Heterogeneous graph encoder.
+- `pretrained_model/`: Pretrained model weights for VQ-VAE and Heterogeneous graph encoder. As our manuscript is currently under review, the pretrained model weights are not publicly available at this time. The weights will be released after the paper is published. If you need access to the weights before publication, please contact us via email.
 - `utils/`: .py files for molecular standardization, fragmentation, graph construction, data splitting, and training schedulers.
 
 
